@@ -1,0 +1,137 @@
+@import 'variables.scss';
+body {
+    background-color: $primary__color--blue;
+}
+
+img {
+    max-width: 75%;
+}
+
+.navbar__link {
+    font-size: 1em;
+    font-family: $font-base;
+}
+
+.ctn__imgIntro,
+.ctn__textIntro {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctn__imgIntro,
+.block__title,
+.container-fluid {
+    background-color: $primary__color--darkblue;
+}
+
+.title__intro {
+    background-image: url("/assets/img/bg-curvy-mobile.svg");
+    background-size: 100% auto;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    margin-top: -35px;
+    h1 {
+        font-size: 1.5em;
+        padding: 0.5em 2em 0;
+        text-align: center;
+        line-height: 1.25em;
+    }
+}
+
+.ctn__textIntro p {
+    font-size: 1em;
+}
+
+.btn__gradient {
+    background: linear-gradient(50deg, $accent__color__cyan, $accent__color__blue);
+    transition: all linear .5s;
+}
+
+.btn__gradient:hover {
+    background: linear-gradient(50deg, $accent__color__blue, $accent__color__cyan);
+}
+
+.btn__link {
+    color: $accent__color__cyan;
+    text-decoration: none;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid $accent__color__cyan;
+    font-size: 0.75em;
+}
+
+.imagen-production {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.block__productive .container-fluid p,
+.p4_fluid {
+    font-size: 1em;
+    font-family: $font-base;
+}
+
+.h2__productive,
+.h5__fluid,
+.h4__fluid {
+    font-size: 1.15em;
+}
+
+.block__features img {
+    height: 64px;
+}
+
+.h2__features {
+    font-size: 1.25em;
+    font: bold;
+}
+
+.img_quotes {
+    margin-bottom: -10px;
+    margin-left: -1em;
+}
+
+.card__testimonial {
+    background-color: $primary__color--darkblue;
+    box-shadow: 2px 2px 20px 2px $primary__color--darkblue;
+    font-family: $font-secondary;
+    img {
+        max-width: 50px;
+    }
+    .card-body {
+        padding-top: 0;
+    }
+}
+
+.block__early {
+    margin-bottom: -150px!important;
+}
+
+.icon__footer {
+    margin-right: 1rem;
+    width: 18px;
+    height: 18px;
+    line-height: 1.5;
+}
+
+.item_social {
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 .5em .5em;
+    img {
+        display: inline-block;
+        margin-right: 0;
+    }
+}
+
+footer {
+    background-color: $primary__color--footer;
+    padding-top: 200px!important;
+    ul {
+        list-style: none;
+    }
+}

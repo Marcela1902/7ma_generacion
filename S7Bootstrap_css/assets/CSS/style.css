@@ -1,0 +1,158 @@
+body {
+    background-color: #181f2a;
+}
+
+img {
+    max-width: 75%;
+}
+
+.navbar__link {
+    font-size: 1em;
+    font-family: "Raleway", sans-serif;
+}
+
+.ctn__imgIntro,
+.ctn__textIntro {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctn__imgIntro,
+.block__title,
+.container-fluid {
+    background-color: #202a3c;
+}
+
+.title__intro {
+    background-image: url("/assets/img/bg-curvy-mobile.svg");
+    background-size: 100% auto;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    margin-top: -35px;
+    padding: 0;
+}
+
+.title__intro h1 {
+    font-size: 1.5em;
+    padding: 0.5em 2em 0;
+    text-align: center;
+    line-height: 1.25em;
+}
+
+.ctn__textIntro p {
+    font-size: 1em;
+}
+
+.btn__gradient {
+    background: linear-gradient(50deg, #65e2d9, #339ecc);
+    -webkit-transition: all linear .5s;
+    transition: all linear .5s;
+}
+
+.btn__gradient:hover {
+    background: linear-gradient(50deg, #339ecc, #65e2d9);
+}
+
+.btn__link {
+    color: #65e2d9;
+    text-decoration: none;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid #65e2d9;
+    font-size: 0.75em;
+}
+
+.imagen-production {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.block__productive .container-fluid p,
+.p4_fluid {
+    font-size: 1em;
+    font-family: "Raleway", sans-serif;
+}
+
+.h2__productive,
+.h5__fluid,
+.h4__fluid {
+    font-size: 1.15em;
+}
+
+.block__features img {
+    height: 64px;
+}
+
+.h2__features {
+    font-size: 1.25em;
+    font: bold;
+}
+
+.img_quotes {
+    margin-bottom: -10px;
+    margin-left: -1em;
+}
+
+.card__testimonial {
+    background-color: #202a3c;
+    -webkit-box-shadow: 2px 2px 20px 2px #202a3c;
+    box-shadow: 2px 2px 20px 2px #202a3c;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card__testimonial img {
+    max-width: 50px;
+}
+
+.card__testimonial .card-body {
+    padding-top: 0;
+}
+
+.block__early {
+    margin-bottom: -150px !important;
+}
+
+.icon__footer {
+    margin-right: 1rem;
+    width: 18px;
+    height: 18px;
+    line-height: 1.5;
+}
+
+.item_social {
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 .5em .5em;
+}
+
+.item_social img {
+    display: inline-block;
+    margin-right: 0;
+}
+
+footer {
+    background-color: #0b1523;
+    padding-top: 200px !important;
+}
+
+footer ul {
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .title__intro {
+        background-image: none;
+        background-image: url("/assets/img/bg-curvy-desktop.svg");
+        background-size: 100% auto;
+        background-position: right 0;
+        background-repeat: no-repeat;
+        margin-top: -35px;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */
